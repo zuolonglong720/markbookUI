@@ -1,0 +1,367 @@
+body{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	margin:0;
+	padding:0;
+	background-color:#313552;
+	font-size:14px;
+	font-family:"Microsoft YaHei","Arial";
+	color:#ffffff;			
+}
+
+a,button,input,optgroup,select,textarea{
+	outline:none;
+}
+
+ul{
+	margin:0;
+	padding:0;	
+}
+
+li{
+	list-style:none;	
+}
+
+a{ 
+text-decoration: none;
+color: #ffffff;
+} 
+
+a:hover{ 
+text-decoration: none;
+color: #e7bb7e;
+} 
+
+
+.bg{
+	background:url(../icon/bg.png) no-repeat;
+	width:1920px;
+	height:1080px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-left:-960px;
+	margin-top:-540px;	
+}
+
+.content{
+	width:1200px;
+	height:100%;
+	margin:0 auto;
+}
+
+/* 导航 */
+
+.nav{
+	width:1200px;
+	height:72px;
+	position:fixed;
+	top:0;
+}
+
+.logo{
+	background:url(../icon/logo.png) no-repeat;
+	background-position:center;
+	width:190px;
+	height:72px;
+	display:inline-block;
+}
+
+.navigation{
+	float:right;
+	height:72px;
+}
+
+.navigation li{
+	display:inline;
+	line-height:72px;
+}
+
+.login{
+	margin-right:40px;
+}
+
+.login:hover{
+	cursor:pointer;
+	color:#e7bb7e;
+}
+
+.question{
+	margin-right:120px;
+}
+
+.question:hover{
+	cursor:pointer;
+	color:#e7bb7e;
+}
+
+.aboutus{
+	margin-right:50px;
+} 
+
+.aboutus:hover{
+	cursor:pointer;
+	color:#e7bb7e;
+}
+
+.bookshelf{
+	margin-right:50px;
+}
+
+.bookshelf:hover{
+	cursor:pointer;
+	color:#e7bb7e;
+}
+
+.enter:hover{
+	cursor:pointer;
+	color:#e7bb7e;
+}
+
+/* 羽毛笔 */
+
+.feather{
+	width:1200px;
+	height:382px;
+	background:url(../icon/icon_pen.png) no-repeat;
+	background-position:center;
+	margin:0 auto;
+	margin-top:220px;
+	position:fixed;
+	animation: feather_move 1.5s;
+    -webkit-animation: feather_move 1.5s;	
+}
+
+@keyframes feather_move{
+	0%{
+		margin-top:200px;
+	}	
+	30%{
+		margin-top:220px;
+	}
+	60%{
+		margin-top:200px;
+	}
+	100%{
+		margin-top:220px;
+	}
+}
+
+.logo2{
+	width:523px;
+	height:77px;
+	background:url(../icon/logo2.png) no-repeat;
+	margin:0 auto;
+	margin-top:155px;
+	animation: none;
+	animation: logo2_delay 2s;
+    -webkit-animation: logo2_delay 2s;
+}
+
+.slogan{
+	width:272px;
+	height:27px;
+	background:url(../icon/slogan.png) no-repeat;
+	margin:0 auto;
+	margin-top:20px;
+	animation: logo2_delay 3s;
+    -webkit-animation: logo2_delay 3s;
+}
+
+@keyframes logo2_delay{
+	0%{
+		opacity:0;
+	}
+	25%{
+		opacity:0;
+	}
+	50%{
+		opacity:0;
+	}
+	75%{
+		opacity:0.5;
+	}
+	100%{
+		opacity:1;
+	}
+}
+
+.logo2_pen{
+	margin-left:277px;
+	margin-top:-8px;
+	animation: logo2_pen_delay 4s;
+    -webkit-animation: logo2_pen_delay 4s;
+}
+
+@keyframes logo2_pen_delay{
+	0%{
+		opacity:0;
+	}
+	25%{
+		opacity:0;		
+	}
+	50%{
+		opacity:0;		
+	}
+	75%{
+		opacity:1;
+		transform: rotate(0deg);
+	}
+	85%{
+		opacity:1;
+		transform: rotate(20deg);
+	}
+	95%{
+		opacity:1;
+		transform: rotate(-20deg);
+	}
+	100%{
+		opacity:1;
+		transform: rotate(0deg);
+	}
+}
+
+
+
+
+/* 产品介绍 */
+
+.introduce{
+	width:1200px;	
+	position:fixed;
+	bottom:20px;
+	display:flex;
+	display: -webkit-flex;
+	justify-content:space-between;
+	flex-direction: row;
+}
+
+.introduce_content{
+	width:386px;
+	height:240px;
+	background-color:#3c3e64;
+	border-top:1px solid #e7bb7e;
+	position:relative;
+}
+
+.introduce_content:hover{
+	background-color:#4a4c7b;
+	box-shadow:8px 8px 16px (31,34,53,0.2);
+}
+
+.introduce_handbook{
+	margin-right:0 !important;
+	float:right;
+}
+
+.note{
+	background:url(../icon/icon_note.png) no-repeat;
+	background-position:left center;
+	width:54px;
+	height:54px;
+	position:absolute;
+	margin-top:94px;
+	margin-left:101px;
+}
+
+.note_words{
+	position:absolute;
+	margin-top:96px;
+	margin-left:174px;
+}
+
+.note_words li:first-child{
+	font-size:16px;
+}
+
+.note_words li:last-child{
+	color:#d2d6f3;
+	margin-top:6px;
+}
+
+.document{
+	background:url(../icon/icon_document.png) no-repeat;
+}
+
+.handbook{
+	background:url(../icon/icon_handbook.png) no-repeat;
+}
+
+.note_02 {
+	animation: note_02 2s;
+    -webkit-animation: note_02 2s;
+}
+
+@keyframes note_02{
+	0%{
+		opacity:0;
+	}
+	25%{
+		opacity:0;		
+	}
+	50%{
+		opacity:0;
+	}
+	75%{
+		opacity:1;
+	}
+	100%{
+		opacity:1;
+	}
+}
+
+.document_02 {
+	animation: document_02 2s;
+    -webkit-animation: document_02 2s;
+}
+
+@keyframes document_02{
+	0%{
+		opacity:0;
+	}
+	25%{
+		opacity:0;		
+	}
+	50%{
+		opacity:1;
+	}
+	75%{
+		opacity:1;
+	}
+	100%{
+		opacity:1;
+	}
+}
+
+.handbook_02 {
+	animation: handbook_02 2s;
+    -webkit-animation: handbook_02 2s;
+}
+
+@keyframes handbook_02{
+	0%{
+		opacity:0;
+	}
+	25%{
+		opacity:1;
+	}
+	50%{
+		opacity:1;	
+	}
+	75%{
+		opacity:1;
+	}
+	100%{
+		opacity:1;
+	}
+}
+
+
+
+
+
+
+
+
+

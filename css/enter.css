@@ -1,0 +1,119 @@
+input::-webkit-input-placeholder { 
+	color:#898ba2; 
+}
+
+input:focus::-webkit-input-placeholder { 
+	color: transparent; 
+}
+
+.user_enter{
+	margin-top:240px;
+}
+
+.enter_title{
+	font-size:26px;
+	text-align:center;
+	display:block;
+}
+
+.enter_box{
+	width:500px;
+	height:500px;
+	background-color:#3c3e64;
+	border-top:1px solid #e7bb7e;
+	margin:0 auto;
+	margin-top:40px;
+	box-shadow:8px 8px 16px (31,34,53,0.2);
+}
+
+.enter_box:hover{
+	background-color:#4a4c7b;
+}
+
+.enter_user{
+	margin-top:80px;
+}
+
+.enter_text{
+	width:320px;
+	height:36px;
+	margin:0 auto;
+	display:block;
+	background:url(../icon/icon_user.png) no-repeat;
+	border:none;
+	border-bottom:1px solid #b0b3cb;
+	font-size:14px;
+	padding-left:36px;
+	font-family:"Microsoft YaHei","Arial";
+	color:#b0b3cb;
+}
+
+.enter_password{
+	background:url(../icon/icon_password.png) no-repeat;
+}
+
+.enter_text:focus{
+	background:url(../icon/icon_user02.png) no-repeat;
+	border-bottom:1px solid #d2d6f3;
+	color:#d2d6f3;
+	caret-color:#d2d6f3;
+}
+
+.enter_password:focus{
+	background:url(../icon/icon_password02.png) no-repeat;
+}
+
+.enter_button{
+	width:356px;
+	height:64px;
+	margin:0 auto;
+	display:block;
+	background-color:#b0b3cb;
+	border:none;
+	font-size:22px;
+	color:#ed4d13;
+	text-align:center;
+}
+
+.enter_button:hover{
+	background-color:#d2d6f3;
+	cursor:pointer;
+}
+
+.forget_password{
+	color:#b0b3cb;
+	width:356px;
+	margin:0 auto;
+	margin-top:50px;
+}
+
+.forget_password li{
+	display:inline;
+}
+
+.forget_password li:hover{
+	color:#d2d6f3;
+	cursor:pointer;
+}
+
+.forget_password li:last-child{
+	float:right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
